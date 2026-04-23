@@ -1,0 +1,28 @@
+feasible_set_coordinates:
+  - [0.02,10,500]
+n_X2: 2
+n_X3: 10
+n_X4: 0
+models:
+  - model_name: sasena
+    stochastic: True
+    variance: 0.2
+    parent: null
+  - model_name: sasena_lf
+    stochastic: False
+    parent: 0
+    cost: 0.1
+number_of_replications: 20
+design_points_method: lhs
+seed: 12345
+algorithm: mfgmia
+selection_method: lf_first
+simulation_budget: 2000
+macro_reps: 1
+macro_reps_same_hyperparams: 1
+true_opt: 7.86
+true_opt_index: 392
+X_split: 4
+use_cond_err_dist: True
+use_Q3_eps: False
+cores: 1
