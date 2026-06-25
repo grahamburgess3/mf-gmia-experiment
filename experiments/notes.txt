@@ -1,0 +1,5 @@
+exp050 - sasena - gmia
+exp051 - sasena - mfgmia (LF model 1)
+exp052 - sasena - mfgmia (LF model 2)
+exp053 - sasena - mfgmia-corr (LF model 1)
+exp054 - sasena - mfgmia-corr (LF model 2)

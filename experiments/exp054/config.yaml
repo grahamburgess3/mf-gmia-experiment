@@ -1,8 +1,9 @@
 feasible_set_coordinates:
+  - [0,1,2]
   - [0.01,10,1000]
 n_X2: 20
 models:
-  - model_name: sasena_mf
+  - model_name: sasena_mf_2
     stochastic: True
     variance: 0.2
     parent: null
@@ -15,6 +16,6 @@ mfgmia-corr-model-cost: 0.1
 simulation_budget: 2000
 macro_reps: 1
 macro_reps_same_hyperparams: 1
-true_opt: 7.86
+true_opt: [0.0, 7.86]
 true_opt_index: 786
 cores: 1
