@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-25T14:07:10.194741",
+  "timestamp": "2026-06-29T12:36:47.728755",
   "cli_args": {
     "config": "config.yaml",
     "macrorep": 0,
@@ -15,6 +15,6 @@
     "parallelise_outside_python": true,
     "parallelise_mle": false,
     "commentry": false,
-    "diagnose": false
+    "diagnose": true
   }
 }
