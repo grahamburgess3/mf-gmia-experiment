@@ -1,7 +1,7 @@
 #!/bin/bash
 
-#SBATCH -J mfgmia-em-alt
-#SBATCH -o mfgmia-em-alt_%A_%a.out
+#SBATCH -J mfgmia-corr-alt
+#SBATCH -o mfgmia-corr-alt_%A_%a.out
 #SBATCH --array=0-99%25
 #SBATCH -c 1
 #SBATCH --ntasks=1
@@ -17,14 +17,14 @@ cd ~/mf-gmia-experiment
 source .venv/bin/activate
 
 # run
-cd ~/mf-gmia-experiment/experiments/exp055
+cd ~/mf-gmia-experiment/experiments/exp059
 srun python -m mf_gmia.optimise --config config.yaml --optimise --standardise --parallelise_outside_python --macrorep "$SLURM_ARRAY_TASK_ID" > ./results/results_$SLURM_ARRAY_TASK_ID.txt
 
-cd ~/mf-gmia-experiment/experiments/exp056
+cd ~/mf-gmia-experiment/experiments/exp060
 srun python -m mf_gmia.optimise --config config.yaml --optimise --standardise --parallelise_outside_python --macrorep "$SLURM_ARRAY_TASK_ID" > ./results/results_$SLURM_ARRAY_TASK_ID.txt
 
-cd ~/mf-gmia-experiment/experiments/exp057
+cd ~/mf-gmia-experiment/experiments/exp061
 srun python -m mf_gmia.optimise --config config.yaml --optimise --standardise --parallelise_outside_python --macrorep "$SLURM_ARRAY_TASK_ID" > ./results/results_$SLURM_ARRAY_TASK_ID.txt
 
-cd ~/mf-gmia-experiment/experiments/exp058
+cd ~/mf-gmia-experiment/experiments/exp062
 srun python -m mf_gmia.optimise --config config.yaml --optimise --standardise --parallelise_outside_python --macrorep "$SLURM_ARRAY_TASK_ID" > ./results/results_$SLURM_ARRAY_TASK_ID.txt
