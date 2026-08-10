@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-06-29T12:35:11.958337",
+  "timestamp": "2026-07-28T15:21:03.272925",
   "cli_args": {
     "config": "config.yaml",
-    "macrorep": 0,
+    "macrorep": 2,
     "usepickle": false,
     "plot_solspace": false,
     "clean_solspace": false,

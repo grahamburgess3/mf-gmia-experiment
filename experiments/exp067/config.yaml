@@ -17,7 +17,7 @@ design_points_method: lhs
 seed: 12345
 algorithm: mfgmia-em
 selection_method: lf_first
-simulation_budget: 2000
+simulation_budget: 1000
 macro_reps: 1
 macro_reps_same_hyperparams: 1
 true_opt: 7.86

@@ -15,7 +15,7 @@ models:
 number_of_replications: 20
 design_points_method: lhs
 seed: 12345
-algorithm: mfgmia
+algorithm: mfgmia-em
 selection_method: lf_first
 simulation_budget: 2000
 macro_reps: 1

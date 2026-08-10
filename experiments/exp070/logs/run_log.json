@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-07-24T13:19:50.662353",
+  "timestamp": "2026-07-28T14:36:19.226723",
   "cli_args": {
     "config": "config.yaml",
-    "macrorep": 194,
+    "macrorep": 2,
     "usepickle": false,
     "plot_solspace": false,
     "clean_solspace": false,
@@ -15,6 +15,6 @@
     "parallelise_outside_python": true,
     "parallelise_mle": false,
     "commentry": false,
-    "diagnose": false
+    "diagnose": true
   }
 }

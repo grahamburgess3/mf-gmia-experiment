@@ -1,0 +1,6 @@
+#!/bin/bash
+
+cd ~/GitHub/mf-gmia-experiment/experiments/exp067
+python -m mf_gmia.optimise --config config.yaml --optimise --standardise --parallelise_outside_python --diagnose --macrorep 0
+python -m mf_gmia.optimise --config config.yaml --optimise --standardise --parallelise_outside_python --diagnose --macrorep 1
+python -m mf_gmia.optimise --config config.yaml --optimise --standardise --parallelise_outside_python --diagnose --macrorep 2
