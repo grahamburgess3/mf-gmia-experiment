@@ -1,0 +1,17 @@
+feasible_set_coordinates:
+  - [0.01,10,1000]
+n: 10
+models:
+  - model_name: sasena
+    stochastic: True
+    variance: 0.2
+    parent: null
+number_of_replications: 10
+design_points_method: lhs
+seed: 12345
+algorithm: gmia
+simulation_budget: 1000
+macro_reps: 1
+macro_reps_same_hyperparams: 1
+true_opt: 7.86
+cores: 1

@@ -1,0 +1,17 @@
+feasible_set_coordinates:
+  - [1,1000,1000]
+n_X2: 10
+models:
+  - model_name: MFGMIA_f
+    stochastic: True
+    variance: 0.01
+    parent: null
+number_of_replications: 10
+design_points_method: lhs
+seed: 12345
+algorithm: gmia
+simulation_budget: 2000
+macro_reps: 1
+macro_reps_same_hyperparams: 1
+true_opt: 164
+cores: 1

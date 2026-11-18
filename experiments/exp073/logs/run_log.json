@@ -1,0 +1,21 @@
+{
+  "timestamp": "2026-11-18T06:56:27.231278",
+  "cli_args": {
+    "config": "config.yaml",
+    "macrorep": 0,
+    "usepickle": false,
+    "plot_solspace": false,
+    "clean_solspace": false,
+    "get_objective_surface": false,
+    "get_objective_surface_lf": false,
+    "plot_iterations": false,
+    "initial_design": false,
+    "optimise": true,
+    "standardise": false,
+    "parallelise": false,
+    "parallelise_outside_python": true,
+    "parallelise_mle": false,
+    "commentry": false,
+    "diagnose": false
+  }
+}
